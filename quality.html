@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ERP Quality Management</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+        }
+
+        .navbar {
+            background-color: #0a1172;
+        }
+
+        .navbar-brand,
+        .nav-link {
+            color: white;
+        }
+
+        .navbar-brand:hover,
+        .nav-link:hover {
+            color: #00bcd4;
+        }
+
+        .navbar-nav {
+            margin-left: auto;
+        }
+
+        section {
+            padding: 80px 0;
+            color: white;
+            text-align: center;
+        }
+
+        .hero-section {
+            background: #00bcd4;
+        }
+
+        .about-section {
+            background: #333;
+        }
+
+        .solutions-section {
+            background: #4caf50;
+        }
+
+        .pricing-section {
+            background: #9c27b0;
+        }
+
+        .submodules-section {
+            background: #ff5722;
+        }
+
+        .contact-section {
+            background: #9c27b0;
+        }
+
+        .section-title {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+        }
+
+        .section-content {
+            font-size: 1.2rem;
+        }
+
+        .pricing-card {
+            background-color: white;
+            padding: 20px;
+            color: black;
+            border-radius: 10px;
+        }
+
+        .pricing-card h3 {
+            color: #0a1172;
+        }
+
+        .pricing-card ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+
+        .pricing-card ul li {
+            font-size: 1rem;
+            margin: 10px 0;
+        }
+
+        .pricing-card .price {
+            font-size: 2rem;
+            font-weight: bold;
+            color: #00bcd4;
+        }
+
+        .tab-content .tab-pane img {
+            max-height: 300px;
+            width: 100%;
+            object-fit: cover;
+        }
+
+        /* Styling for vertical tabs */
+        .nav-pills .nav-link {
+            font-size: 1.25rem;
+            padding: 15px;
+            margin-bottom: 15px;
+            border-radius: 10px;
+            background-color: #f5f5f5;
+            color: #0a1172;
+        }
+
+        .nav-pills .nav-link:hover {
+            background-color: #00bcd4;
+            color: white;
+        }
+
+        .nav-pills .nav-link.active {
+            background-color: #00bcd4;
+            color: white;
+        }
+
+        .tab-content .tab-pane {
+            font-size: 1.1rem;
+        }
+
+        .tab-content .tab-pane ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+
+        .tab-content .tab-pane ul li {
+            font-size: 1.2rem;
+            margin: 15px 0;
+        }
+
+        .container {
+            margin-top: 20px;
+        }
+
+        .tab-content {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <a class="navbar-brand" href="#">ERP Quality Management</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#home">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">About Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#solutions">Solutions</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#pricing">Pricing</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#submodules">Submodules</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+        <div class="container">
+            <h1 class="display-4">Quality Management Made Easy</h1>
+            <p>Manage and monitor your quality control with our easy-to-use ERP solutions.</p>
+            <a href="#solutions" class="btn btn-light">Learn More</a>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <h2 class="section-title">About Us</h2>
+            <p class="section-content">We are an innovative company providing top-quality ERP solutions tailored to businesses of all sizes. Our ERP Quality Management Module helps organizations streamline their quality processes, improve compliance, and ensure operational excellence. With over 10 years of expertise, we offer personalized support and scalable solutions to meet your business needs.</p>
+        </div>
+    </section>
+
+    <!-- Solutions Section -->
+    <section id="solutions" class="solutions-section">
+        <div class="container">
+            <h2 class="section-title">Solutions</h2>
+            <p class="section-content">Our ERP Quality Management module offers a complete solution to handle quality control and compliance requirements efficiently. We provide scalable and flexible services to meet your business demands.</p>
+            <ul class="section-content">
+                <li>Automated Quality Audits</li>
+                <li>Real-time Monitoring</li>
+                <li>Data-Driven Insights</li>
+                <li>Comprehensive Reporting</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section id="pricing" class="pricing-section">
+        <div class="container">
+            <h2 class="section-title">Pricing</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="pricing-card">
+                        <h3>Basic Plan</h3>
+                        <p class="price">$29/month</p>
+                        <ul>
+                            <li>1 User</li>
+                            <li>Basic Support</li>
+                            <li>Access to All Modules</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="pricing-card">
+                        <h3>Pro Plan</h3>
+                        <p class="price">$79/month</p>
+                        <ul>
+                            <li>Up to 5 Users</li>
+                            <li>Priority Support</li>
+                            <li>Advanced Analytics</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="pricing-card">
+                        <h3>Enterprise Plan</h3>
+                        <p class="price">$199/month</p>
+                        <ul>
+                            <li>Unlimited Users</li>
+                            <li>Dedicated Support</li>
+                            <li>Custom Integrations</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Submodules Section -->
+    <section id="submodules" class="submodules-section">
+        <div class="container">
+            <h2 class="section-title">Submodules</h2>
+
+            <!-- Vertical Tabs -->
+            <div class="row">
+                <div class="col-md-4">
+                    <ul class="nav flex-column nav-pills" id="submodulesTab" role="tablist">
+                        <li class="nav-item">
+                            <a class="nav-link active" id="product-tab" data-bs-toggle="pill" href="#product" role="tab">Product Inspection</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="supplier-tab" data-bs-toggle="pill" href="#supplier" role="tab">Supplier Quality Management</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="nonconformance-tab" data-bs-toggle="pill" href="#nonconformance" role="tab">Non-Conformance Tracking</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="compliance-tab" data-bs-toggle="pill" href="#compliance" role="tab">Compliance Management</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="reporting-tab" data-bs-toggle="pill" href="#reporting" role="tab">Quality Reporting</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="audit-tab" data-bs-toggle="pill" href="#audit" role="tab">Audit Management</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="training-tab" data-bs-toggle="pill" href="#training" role="tab">Training & Certification</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Tab Content -->
+                <div class="col-md-8">
+                    <div class="tab-content" id="submodulesTabContent">
+                        <!-- Product Inspection Tab -->
+                        <div class="tab-pane fade show active" id="product" role="tabpanel">
+                            <h3>Product Inspection</h3>
+                            <img src="https://via.placeholder.com/800x400" alt="Product Inspection">
+                            <ul>
+                                <li>Detailed inspection reports for all products.</li>
+                                <li>Real-time quality checks during production.</li>
+                                <li>Integration with production data for better analysis.</li>
+                            </ul>
+                        </div>
+                        <!-- Supplier Quality Management Tab -->
+                        <div class="tab-pane fade" id="supplier" role="tabpanel">
+                            <h3>Supplier Quality Management</h3>
+                            <img src="https://via.placeholder.com/800x400" alt="Supplier Quality Management">
+                            <ul>
+                                <li>Monitor supplier performance with key metrics.</li>
+                                <li>Automated supplier scorecards.</li>
+                                <li>Centralized data for better supplier collaboration.</li>
+                            </ul>
+                        </div>
+                        <!-- Non-Conformance Tracking Tab -->
+                        <div class="tab-pane fade" id="nonconformance" role="tabpanel">
+                            <h3>Non-Conformance Tracking</h3>
+                            <img src="https://via.placeholder.com/800x400" alt="Non-Conformance Tracking">
+                            <ul>
+                                <li>Automated alerts for non-conformance incidents.</li>
+                                <li>Track corrective actions and improvements.</li>
+                                <li>Generate reports for audit purposes.</li>
+                            </ul>
+                        </div>
+                        <!-- Compliance Management Tab -->
+                        <div class="tab-pane fade" id="compliance" role="tabpanel">
+                            <h3>Compliance Management</h3>
+                            <img src="https://via.placeholder.com/800x400" alt="Compliance Management">
+                            <ul>
+                                <li>Track regulatory requirements and deadlines.</li>
+                                <li>Generate compliance reports with ease.</li>
+                                <li>Ensure consistent adherence to industry standards.</li>
+                            </ul>
+                        </div>
+                        <!-- Quality Reporting Tab -->
+                        <div class="tab-pane fade" id="reporting" role="tabpanel">
+                            <h3>Quality Reporting</h3>
+                            <img src="https://via.placeholder.com/800x400" alt="Quality Reporting">
+                            <ul>
+                                <li>Generate detailed quality reports and analytics.</li>
+                                <li>Track quality performance over time.</li>
+                                <li>Customizable reports for different needs.</li>
+                            </ul>
+                        </div>
+                        <!-- Audit Management Tab -->
+                        <div class="tab-pane fade" id="audit" role="tabpanel">
+                            <h3>Audit Management</h3>
+                            <img src="https://via.placeholder.com/800x400" alt="Audit Management">
+                            <ul>
+                                <li>Plan and schedule internal audits.</li>
+                                <li>Audit checklists and reports.</li>
+                                <li>Manage audit findings and corrective actions.</li>
+                            </ul>
+                        </div>
+                        <!-- Training & Certification Tab -->
+                        <div class="tab-pane fade" id="training" role="tabpanel">
+                            <h3>Training & Certification</h3>
+                            <img src="https://via.placeholder.com/800x400" alt="Training & Certification">
+                            <ul>
+                                <li>Track employee training progress.</li>
+                                <li>Ensure proper certifications for compliance.</li>
+                                <li>Provide training materials and assessments.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h2 class="section-title">Contact Us</h2>
+            <p>If you have any questions or would like more information about our ERP Quality Management Module, feel free to get in touch!</p>
+            <p>Email: <a href="mailto:support@erpquality.com">support@erpquality.com</a></p>
+            <p>Phone: +1-234-567-890</p>
+        </div>
+    </section>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"></script>
+</body>
+
+</html>
